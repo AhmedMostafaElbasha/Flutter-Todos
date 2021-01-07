@@ -14,7 +14,7 @@ class TodosLoadInProgress extends TodosState {}
 class TodosLoadSuccessState extends TodosState {
   final List<Todo> todos;
 
-  const TodosLoadSuccessState([this.todos = const []]);
+  const TodosLoadSuccessState({this.todos = const []});
 
   @override
   // TODO: implement props
@@ -23,7 +23,7 @@ class TodosLoadSuccessState extends TodosState {
   @override
   String toString() {
     // TODO: implement toString
-    return "TodosLoadSuccess { todos: $todos }";
+    return 'TodosLoadSuccess { todos: $todos }';
   }
 }
 

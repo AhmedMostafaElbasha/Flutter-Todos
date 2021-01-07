@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
+
 import '../../models/models.dart';
 
 abstract class TodosEvent extends Equatable {
   const TodosEvent();
 
   @override
-  // TODO: implement props
   List<Object> get props => [];
 }
 
@@ -17,12 +17,10 @@ class TodoAdded extends TodosEvent {
   const TodoAdded(this.todo);
 
   @override
-  // TODO: implement props
   List<Object> get props => [todo];
 
   @override
   String toString() {
-    // TODO: implement toString
     return 'TodoAdded { todo: $todo }';
   }
 }
@@ -33,12 +31,10 @@ class TodoUpdated extends TodosEvent {
   const TodoUpdated(this.todo);
 
   @override
-  // TODO: implement props
   List<Object> get props => [todo];
 
   @override
   String toString() {
-    // TODO: implement toString
     return 'TodoUpdated { todo: $todo }';
   }
 }

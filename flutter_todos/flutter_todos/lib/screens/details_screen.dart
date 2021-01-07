@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:todos_app_core/todos_app_core.dart';
-import '../blocs/blocs.dart';
+import '../blocs/todos/todos.dart';
 import 'screens.dart';
 import '../flutter_todos_keys.dart';
 
